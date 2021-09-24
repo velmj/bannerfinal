@@ -187,7 +187,124 @@
                   </div>
                   <div class="mt-6 relative flex-1 px-4 sm:px-6">
                     <!-- Replace with your content -->
-                    <div class="h-full border-2 border-dashed border-gray-200" aria-hidden="true" />
+                    <div class="bg-white shadow overflow-hidden sm:rounded-lg">
+                      <div class="border-t border-gray-200 px-4 py-5 sm:p-0">
+                        <dl class="sm:divide-y sm:divide-gray-200">
+                          <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <dt class="text-sm font-medium text-gray-500">
+                              Group Name
+                            </dt>
+                            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                              {{selectedJob.groupName}}
+                            </dd>
+                          </div>
+                          <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <dt class="text-sm font-medium text-gray-500">
+                              Alert Type
+                            </dt>
+                            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                              {{selectedJob.alertType}}
+                            </dd>
+                          </div>
+                          <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <dt class="text-sm font-medium text-gray-500">
+                              Email address
+                            </dt>
+                            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                              {{selectedJob.email}}
+                            </dd>
+                          </div>
+                          <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <dt class="text-sm font-medium text-gray-500">
+                              Quality Check
+                            </dt>
+                            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                              {{selectedJob.qualityCheck}}
+                            </dd>
+                          </div>
+                          <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <dt class="text-sm font-medium text-gray-500">
+                              Source Platform
+                            </dt>
+                            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                              {{selectedJob.sourcePlatform}}
+                            </dd>
+                          </div>
+                          <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <dt class="text-sm font-medium text-gray-500">
+                              Destination Platform
+                            </dt>
+                            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                              {{selectedJob.destinationPlatform}}
+                            </dd>
+                          </div>
+                          <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <dt class="text-sm font-medium text-gray-500">
+                              File Count
+                            </dt>
+                            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                              {{selectedJob.fileCount}}
+                            </dd>
+                          </div>
+                          <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <dt class="text-sm font-medium text-gray-500">
+                              Source Count
+                            </dt>
+                            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                              {{selectedJob.sourceCount}}
+                            </dd>
+                          </div>
+                          <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <dt class="text-sm font-medium text-gray-500">
+                              Source Table
+                            </dt>
+                            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                              {{selectedJob.sourceTableName}}
+                            </dd>
+                          </div>
+                          <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <dt class="text-sm font-medium text-gray-500">
+                              Stage Count
+                            </dt>
+                            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                              {{selectedJob.stageCount}}
+                            </dd>
+                          </div>
+                          <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <dt class="text-sm font-medium text-gray-500">
+                              Destination Table
+                            </dt>
+                            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                              {{selectedJob.destinationTable}}
+                            </dd>
+                          </div>
+                          <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <dt class="text-sm font-medium text-gray-500">
+                              Target Count
+                            </dt>
+                            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                              {{selectedJob.targetCount}}
+                            </dd>
+                          </div>
+                          <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <dt class="text-sm font-medium text-gray-500">
+                              Status
+                            </dt>
+                            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                              {{selectedJob.status}}
+                            </dd>
+                          </div>
+                          <div class="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                            <dt class="text-sm font-medium text-gray-500">
+                              Last Updated
+                            </dt>
+                            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                              {{selectedJob.lastUpdated}}
+                            </dd>
+                          </div>
+                        </dl>
+                      </div>
+                    </div>
                     <!-- /End replace -->
                   </div>
                 </div>
@@ -212,6 +329,19 @@ import Stats from '../components/Stats.vue'
 import { ChevronLeftIcon, ChevronRightIcon, ArrowUpIcon, ArrowDownIcon } from '@heroicons/vue/solid'
 import { XIcon } from '@heroicons/vue/outline'
 import { Dialog, DialogOverlay, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'
+const transactions = [
+  {
+    id: 1,
+    name: 'Payment to Molly Sanders',
+    href: '#',
+    amount: '$20,000',
+    currency: 'USD',
+    status: 'success',
+    date: 'July 11, 2020',
+    datetime: '2020-07-11',
+  },
+  // More transactions...
+];
 
 const allJobs = [
   {
@@ -391,7 +521,8 @@ export default {
       pageSize,
       currentSort,
       currentSortDir,
-      selectedJob      
+      selectedJob,
+      transactions
     }
   },
   computed: {
