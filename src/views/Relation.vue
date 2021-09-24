@@ -11,7 +11,7 @@
           </div>
         </div>
         <div class="flex flex-col">
-          <img src="../assets/entity_mapping.png" width="100%" height="60%" />
+          <img src="https://bannerfiles.vercel.app/entity_mapping.png" width="100%" height="60%" />
         </div>
       </div>
     </div>
@@ -21,11 +21,7 @@
 
 export default {
   setup() {
-    const entityMappingImg = '../assets/entity_mapping.png';
-
-    return {
-      entityMappingImg
-    }
+    
   }
 }
 </script>
